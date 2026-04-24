@@ -1,0 +1,26 @@
+/* 
+ * Home Button Komponente - Minimalistisch für Inline-Verwendung
+ */
+
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.8rem;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: background 0.2s;
+}
+
+.home-button:hover,
+.home-button:focus {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.home-button svg {
+  width: 16px;
+  height: 16px;
+}

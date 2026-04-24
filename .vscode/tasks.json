@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Apache starten",
+      "type": "shell",
+      "command": "Start-Process powershell -Verb RunAs -ArgumentList '-Command \"Start-Service Apache24\"'",
+      "problemMatcher": []
+    },
+    {
+      "label": "Apache stoppen",
+      "type": "shell",
+      "command": "Start-Process powershell -Verb RunAs -ArgumentList '-Command \"Stop-Service Apache24\"'",
+      "problemMatcher": []
+    }
+  ]
+}

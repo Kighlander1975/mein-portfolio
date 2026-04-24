@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nur Desktop-Zugang</title>
+    <link rel="stylesheet" href="assets/css/mobile.css" />
+    <!-- Device-Detector vor den anderen Skripten einbinden -->
+    <script src="assets/js/core/device-detector.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="message-box">
+        <div class="icon-container">
+          <div class="device-icon">
+            <span class="screen"></span>
+            <span class="keyboard"></span>
+          </div>
+        </div>
+        <h1>Desktop-Version erforderlich</h1>
+        <p>
+          Dieser Service steht leider nur auf Desktop-Systemen und Laptops zur
+          Verfügung.
+        </p>
+        <p>
+          Bitte öffnen Sie diese Webseite auf einem Computer mit größerem
+          Bildschirm, um den vollen Funktionsumfang zu nutzen.
+        </p>
+
+        <div class="details">
+          <h2>Warum ist das so?</h2>
+          <p>
+            Unsere 3x3 Smooth Scroll Grid Layout bietet ein immersives Erlebnis,
+            das speziell für größere Bildschirme und präzise Eingabemethoden
+            konzipiert wurde.
+          </p>
+          <p>
+            Die vollständige Funktionalität und das optimale Benutzererlebnis
+            können wir aktuell nur auf Desktop-Systemen gewährleisten.
+          </p>
+        </div>
+
+        <!-- Dieser Container wird je nach Gerätetyp angezeigt oder versteckt -->
+        <div class="desktop-link">
+          <a href="index.html?desktop=true" class="force-desktop-btn"
+            >Trotzdem zur Desktop-Version</a
+          >
+        </div>
+
+        <div class="brand">
+          <p>
+            © Layout:
+            <a href="https://kighlander.de" target="_blank" rel="noopener"
+              >Kighlander.de</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Den neuen Handler einbinden -->
+    <script src="assets/js/pages/mobile-link-handler.js"></script>
+  </body>
+</html>
