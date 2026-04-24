@@ -77,3 +77,13 @@
 127.0.0.1 - - [24/Apr/2026:13:38:46 +0200] "GET / HTTP/1.1" 200 5951
 127.0.0.1 - - [24/Apr/2026:13:38:46 +0200] "GET /assets/js/core/device-detector.js HTTP/1.1" 304 -
 127.0.0.1 - - [24/Apr/2026:13:38:46 +0200] "GET /assets/js/pages/index.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Apr/2026:13:48:35 +0200] "GET / HTTP/1.1" 200 6024
+127.0.0.1 - - [24/Apr/2026:13:48:35 +0200] "GET /assets/css/components/home-button.css HTTP/1.1" 200 982
+127.0.0.1 - - [24/Apr/2026:13:48:35 +0200] "GET /assets/js/core/device-detector.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Apr/2026:13:48:35 +0200] "GET /assets/js/pages/index.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Apr/2026:13:58:12 +0200] "GET / HTTP/1.1" 200 6585
+127.0.0.1 - - [24/Apr/2026:13:58:12 +0200] "GET /assets/css/components/home-button.css HTTP/1.1" 304 -
+127.0.0.1 - - [24/Apr/2026:13:58:12 +0200] "GET /assets/js/pages/index.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Apr/2026:13:58:12 +0200] "GET /assets/js/core/device-detector.js HTTP/1.1" 304 -
+127.0.0.1 - - [24/Apr/2026:14:01:16 +0200] "GET / HTTP/1.1" 200 6508
+127.0.0.1 - - [24/Apr/2026:14:01:16 +0200] "GET /assets/css/components/home-button.css HTTP/1.1" 200 501

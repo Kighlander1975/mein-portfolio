@@ -57,21 +57,26 @@ Herzstück der Seite mit einer übersichtlichen Navigation zu allen Inhalten.
 
 ## ![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
 
-## Lizenz
+## Lizenz und Nutzungsbedingungen
 
-Dieses Portfolio inklusive Layout und Design wurde von Kai Akkermann erstellt und steht unter der [Creative Commons Namensnennung-NichtKommerziell 4.0 International Lizenz (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.de).
+Dieses Portfolio inklusive Layout und Design wurde von Kai Akkermann erstellt und unterliegt benutzerdefinierten Nutzungsbedingungen, die auf der [Creative Commons Namensnennung-NichtKommerziell 4.0 Lizenz](https://creativecommons.org/licenses/by-nc/4.0/deed.de) basieren, aber mit folgenden spezifischen Anpassungen:
 
-**Bedingungen:**
+**Erlaubte Nutzung:**
 
-- Die Inhalte, das Design und der Code dieser Webseite dürfen ausschließlich für **nicht-kommerzielle Zwecke** verwendet werden.
-- Bei jeder Nutzung, Bearbeitung oder Weitergabe muss angemessen auf mich als Urheber hingewiesen werden (Kai Akkermann / kighlander.de).
-- Abgeleitete Werke müssen unter den gleichen Bedingungen weitergegeben werden.
+- Die **Einsicht und Bewertung** durch potenzielle Arbeitgeber, Kunden und Kooperationspartner ist ausdrücklich gestattet und erwünscht.
+- Die **Nutzung als Referenz** in beruflichem Kontext ist erlaubt.
+- Der integrierte **Mini-Shop** stellt eine Ausnahme zur nicht-kommerziellen Nutzung dar und ist ein genehmigter Bestandteil dieser Webseite.
 
-Siehe [LICENSE.txt](./LICENSE.txt) für Details.
+**Einschränkungen:**
 
-**Achtung:**  
-Kommerzielle Nutzung ist ohne ausdrückliche Genehmigung **nicht** gestattet.  
-Die Entfernung von Urheberrechtshinweisen ist **nicht erlaubt**.
+- Die Inhalte, das Design und der Code dieser Webseite dürfen **nicht ohne ausdrückliche Genehmigung** kopiert, reproduziert oder anderweitig genutzt werden.
+- Bei erlaubter Nutzung muss angemessen auf mich als Urheber hingewiesen werden (Kai Akkermann / kighlander.de).
+- Die Entfernung von Urheberrechtshinweisen ist **nicht erlaubt**.
+
+**Hinweis:**  
+Für spezifische Nutzungsanfragen oder kommerzielle Lizenzen kontaktieren Sie mich bitte direkt.
+
+Siehe [LICENSE.txt](./LICENSE.txt) für weitere Details zu den Grundlagen der Lizenz.
 
 ---
 
