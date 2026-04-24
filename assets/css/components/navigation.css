@@ -1,0 +1,122 @@
+/* Custom Navigation Component */
+
+.custom-navigation-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.custom-navigation {
+  position: relative;
+  width: 100%;
+  max-width: 95%; /* Geändert von 800px auf 95% */
+  margin: 0 auto;
+  padding: 30px 0;
+  background: transparent;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Erlaubt das Umbrechen */
+}
+
+/* Neue Wrapper für die beiden Gruppen */
+.nav-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* Mehr Abstand zwischen den Gruppen */
+.nav-group:first-child {
+  margin-bottom: 20px; /* Erhöhter Abstand nach unten für die erste Gruppe */
+}
+
+.nav-group:last-child {
+  margin-top: 10px; /* Zusätzlicher Abstand nach oben für die zweite Gruppe */
+}
+
+.custom-navigation .nav-item {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  padding-top: 15px;
+  margin: 0 10px 15px;
+  background: transparent;
+  z-index: 2;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-navigation .link-text {
+  font-size: 1em;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+
+.custom-navigation .nav-item .link-text:before {
+  content: "";
+  transform: scale(0.2);
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  top: -55.5px;
+  left: -14px;
+  height: 100px;
+  width: 100px;
+  background: none;
+  border-radius: 100px;
+  border-top: 15px solid rgba(255, 255, 255, 0.6);
+  border-bottom: 15px solid rgba(255, 255, 255, 0.6);
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+.custom-navigation .nav-item:hover .link-text:before {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  transform: scale(0.7);
+}
+
+.custom-navigation .nav-item:hover .link-text {
+  color: #ffffff;
+  transform: scale(1.3);
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+  .custom-navigation {
+    padding: 20px 10px;
+  }
+
+  .custom-navigation .nav-item {
+    margin: 0 5px 10px;
+    width: 80px;
+  }
+
+  .custom-navigation .link-text {
+    font-size: 0.8em;
+  }
+
+  /* Erzwinge zwei Zeilen für kleinere Bildschirme */
+  .nav-group {
+    margin: 5px 0;
+  }
+
+  /* Erhöhter Abstand auch bei kleineren Bildschirmen */
+  .nav-group:first-child {
+    margin-bottom: 25px;
+  }
+}

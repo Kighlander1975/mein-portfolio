@@ -1,26 +1,52 @@
-/* 
- * Home Button Komponente - Minimalistisch für Inline-Verwendung
- */
-
+/* Home Button Styles */
 .home-button {
-  display: inline-flex;
+  display: inline-flex; /* Inline-Element statt Block */
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.4rem 0.8rem;
-  background: rgba(255, 255, 255, 0.2);
-  color: white;
-  border-radius: 0.25rem;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
   text-decoration: none;
-  font-size: 0.9em;
-  transition: background 0.2s;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  /* Neuer heller Blau-Gradient ohne Opacity */
+  background: linear-gradient(135deg, #a0d8ef 0%, #7abce8 100%);
+
+  /* Schwarze Schriftfarbe */
+  color: #000000;
 }
 
-.home-button:hover,
-.home-button:focus {
-  background: rgba(255, 255, 255, 0.3);
+.home-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  /* Etwas hellerer Hover-Zustand */
+  background: linear-gradient(135deg, #b8e2f2 0%, #8ecbf5 100%);
 }
 
-.home-button svg {
-  width: 16px;
-  height: 16px;
+.home-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Etwas dunklerer aktiver Zustand */
+  background: linear-gradient(135deg, #8bc7e3 0%, #6aa7d9 100%);
+}
+
+.home-button .icon {
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+}
+
+/* Responsive Anpassung */
+@media (max-width: 768px) {
+  .home-button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+
+  .home-button .icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+  }
 }
